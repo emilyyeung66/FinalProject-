@@ -25,7 +25,12 @@ class LinksViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.hesc.ny.gov/pay-for-college/financial-aid/types-of-financial-aid/nys-grants-scholarships-awards/the-excelsior-scholarship.html")! as URL, options: [:], completionHandler: nil)
     }
     
-     @IBAction func Btn3_URL(_ sender: UIButton) {
+    
+    @IBAction func newButton_URL(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "http://dyllennellis.com/collegeapps/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func Btn3_URL(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "https://www.starbucks.com/careers/working-at-starbucks/education")! as URL, options: [:], completionHandler: nil)
      }
      
